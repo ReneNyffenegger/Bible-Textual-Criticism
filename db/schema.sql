@@ -9,7 +9,7 @@ create table manuscript (
   id        char not null primary key,
   siglum    char,
   name      char,
-  id_cntr   char  unique,          -- id given by Center for New Testament Restoration (https://greekcntr.org/)
+  id_cntr   char,          -- id given by Center for New Testament Restoration (https://greekcntr.org/). Not unique (GA10015 contains both P15 and P16).
   notes     char 
 );
 
