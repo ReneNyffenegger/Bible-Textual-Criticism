@@ -11,7 +11,8 @@ create table manuscript (
   name      char,
   id_cntr   char,          -- id given by Center for New Testament Restoration (https://greekcntr.org/). Not unique (GA10015 contains both P15 and P16).
   content   char,
-  notes     char 
+  date_     char,
+  notes     char
 );
 
 create table variant (

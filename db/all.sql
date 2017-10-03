@@ -6,3 +6,5 @@ pragma foreign_keys = on;
 .read data/update-manuscripts_set-notes.sql
 .read data/update-manuscripts_set-id_cntr.sql
 .read data/update-manuscripts_set-content.sql
+
+.read data/cntr-handnotes.sql
