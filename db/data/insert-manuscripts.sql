@@ -1,5 +1,6 @@
 begin transaction;
 
+-- { Papyri
 insert into manuscript(id) values('P1'  );
 insert into manuscript(id) values('P2'  );
 insert into manuscript(id) values('P3'  );
@@ -140,7 +141,8 @@ insert into manuscript(id) values('P137');
 insert into manuscript(id) values('P138');
 insert into manuscript(id) values('P139');
 insert into manuscript(id) values('P140');
-
+-- }
+-- { Uncials
 insert into manuscript(id) values('01'  );
 insert into manuscript(id) values('02'  );
 insert into manuscript(id) values('03'  );
@@ -466,7 +468,8 @@ insert into manuscript(id) values('0320');
 insert into manuscript(id) values('0321');
 insert into manuscript(id) values('0322');
 insert into manuscript(id) values('0323');
-
+-- }
+-- { Miniscules
 insert into manuscript(id) values('1');
 insert into manuscript(id) values('2');
 insert into manuscript(id) values('3');
@@ -3348,12 +3351,83 @@ insert into manuscript(id) values('2933');
 insert into manuscript(id) values('2934');
 insert into manuscript(id) values('2935');
 insert into manuscript(id) values('2936');
-
+-- }
+-- { Lectionaries
 insert into manuscript(id) values('l962' );
 insert into manuscript(id) values('l963' );
 insert into manuscript(id) values('l965' );
 insert into manuscript(id) values('l1575');
 insert into manuscript(id) values('l1604');
 insert into manuscript(id) values('l2004');
+-- }
+-- { Found at CNTR
+
+insert into manuscript (id, id_cntr) values ('GA00023 ' , 'GA00023 ' );
+insert into manuscript (id, id_cntr) values ('TM018004' , 'TM018004' );
+insert into manuscript (id, id_cntr) values ('TM033368' , 'TM033368' );
+insert into manuscript (id, id_cntr) values ('TM059453' , 'TM059453' );
+insert into manuscript (id, id_cntr) values ('TM059463' , 'TM059463' );
+insert into manuscript (id, id_cntr) values ('TM061317' , 'TM061317' );
+insert into manuscript (id, id_cntr) values ('TM061318' , 'TM061318' );
+insert into manuscript (id, id_cntr) values ('TM061458' , 'TM061458' );
+insert into manuscript (id, id_cntr) values ('TM061461' , 'TM061461' );
+insert into manuscript (id, id_cntr) values ('TM061617' , 'TM061617' );
+insert into manuscript (id, id_cntr) values ('TM061645' , 'TM061645' );
+insert into manuscript (id, id_cntr) values ('TM061695' , 'TM061695' );
+insert into manuscript (id, id_cntr) values ('TM061709' , 'TM061709' );
+insert into manuscript (id, id_cntr) values ('TM061710' , 'TM061710' );
+insert into manuscript (id, id_cntr) values ('TM061715' , 'TM061715' );
+insert into manuscript (id, id_cntr) values ('TM061795' , 'TM061795' );
+insert into manuscript (id, id_cntr) values ('TM061839' , 'TM061839' );
+insert into manuscript (id, id_cntr) values ('TM061840' , 'TM061840' );
+insert into manuscript (id, id_cntr) values ('TM061868' , 'TM061868' );
+insert into manuscript (id, id_cntr) values ('TM061871' , 'TM061871' );
+insert into manuscript (id, id_cntr) values ('TM061873' , 'TM061873' );
+insert into manuscript (id, id_cntr) values ('TM061914' , 'TM061914' );
+insert into manuscript (id, id_cntr) values ('TM062312' , 'TM062312' );
+insert into manuscript (id, id_cntr) values ('TM062315A', 'TM062315A');
+insert into manuscript (id, id_cntr) values ('TM062318A', 'TM062318A');
+insert into manuscript (id, id_cntr) values ('TM062318B', 'TM062318B');
+insert into manuscript (id, id_cntr) values ('TM062318C', 'TM062318C');
+insert into manuscript (id, id_cntr) values ('TM062324' , 'TM062324' );
+insert into manuscript (id, id_cntr) values ('TM062325' , 'TM062325' );
+insert into manuscript (id, id_cntr) values ('TM062335' , 'TM062335' );
+insert into manuscript (id, id_cntr) values ('TM062336' , 'TM062336' );
+insert into manuscript (id, id_cntr) values ('TM062337' , 'TM062337' );
+insert into manuscript (id, id_cntr) values ('TM062340' , 'TM062340' );
+insert into manuscript (id, id_cntr) values ('TM062341' , 'TM062341' );
+insert into manuscript (id, id_cntr) values ('TM062342' , 'TM062342' );
+insert into manuscript (id, id_cntr) values ('TM062343' , 'TM062343' );
+insert into manuscript (id, id_cntr) values ('TM062826' , 'TM062826' );
+insert into manuscript (id, id_cntr) values ('TM063017' , 'TM063017' );
+insert into manuscript (id, id_cntr) values ('TM063820' , 'TM063820' );
+insert into manuscript (id, id_cntr) values ('TM063857' , 'TM063857' );
+insert into manuscript (id, id_cntr) values ('TM063986' , 'TM063986' );
+insert into manuscript (id, id_cntr) values ('TM064007' , 'TM064007' );
+insert into manuscript (id, id_cntr) values ('TM064206' , 'TM064206' );
+insert into manuscript (id, id_cntr) values ('TM064243' , 'TM064243' );
+insert into manuscript (id, id_cntr) values ('TM064348' , 'TM064348' );
+insert into manuscript (id, id_cntr) values ('TM064372' , 'TM064372' );
+insert into manuscript (id, id_cntr) values ('TM064399' , 'TM064399' );
+insert into manuscript (id, id_cntr) values ('TM064404' , 'TM064404' );
+insert into manuscript (id, id_cntr) values ('TM064491' , 'TM064491' );
+insert into manuscript (id, id_cntr) values ('TM064522' , 'TM064522' );
+insert into manuscript (id, id_cntr) values ('TM064596' , 'TM064596' );
+insert into manuscript (id, id_cntr) values ('TM064605' , 'TM064605' );
+insert into manuscript (id, id_cntr) values ('TM064663' , 'TM064663' );
+insert into manuscript (id, id_cntr) values ('TM064670' , 'TM064670' );
+insert into manuscript (id, id_cntr) values ('TM064692' , 'TM064692' );
+insert into manuscript (id, id_cntr) values ('TM064853' , 'TM064853' );
+insert into manuscript (id, id_cntr) values ('TM102798' , 'TM102798' );
+insert into manuscript (id, id_cntr) values ('TM119961' , 'TM119961' );
+insert into manuscript (id, id_cntr) values ('TM120128' , 'TM120128' );
+insert into manuscript (id, id_cntr) values ('TM120527' , 'TM120527' );
+insert into manuscript (id, id_cntr) values ('TM120528' , 'TM120528' );
+insert into manuscript (id, id_cntr) values ('TM120532' , 'TM120532' );
+insert into manuscript (id, id_cntr) values ('TM140277' , 'TM140277' );
+insert into manuscript (id, id_cntr) values ('TM145321' , 'TM145321' );
+insert into manuscript (id, id_cntr) values ('TM641699' , 'TM641699' );
+
+-- }
 
 commit;
