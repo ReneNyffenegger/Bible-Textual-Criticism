@@ -2,6 +2,9 @@ begin transaction;
 
 update manuscript set notes = '= 0113, 0125, 0139'  where id = '029';
 update manuscript set notes = 'Gospels commentary'  where id = '055';
+
+update manuscript set notes = '0142 was probably the ancestor of 056 (both read και μειναντες εν Στρογγυλιω in Acts 20:15 and both lack verse Acts 8:37).' where id = '056';
+
 update manuscript set notes = '= 0215'              where id = '059';
 update manuscript set notes = '= 0117'              where id = '063';
 update manuscript set notes = '= 074, 090'          where id = '064';
@@ -35,6 +38,7 @@ update manuscript set notes = '= 0137'       where id = '0136';
 update manuscript set notes = '= 0136'       where id = '0137';
 update manuscript set notes = '= 0102'       where id = '0138';
 update manuscript set notes = '= 029'        where id = '0139';
+update manuscript set notes = '0142 was probably the ancestor of 056 (both read και μειναντες εν Στρογγυλιω in Acts 20:15 and both lack verse Acts 8:37).' where id = '0142';
 update manuscript set notes = '= 0187'       where id = '0149';
 update manuscript set notes = 'Talisman containing Matthew 16:9-13' where id = '0152';
 update manuscript set notes = 'Ostracon containing 2 Corinthians 4:7; 2 Timothy 2:20' where id = '0153';
