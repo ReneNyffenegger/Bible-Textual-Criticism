@@ -1,6 +1,51 @@
 begin transaction;
 
-update manuscript set siglum = 'א' where id = '01';
+update manuscript set siglum = 'א'    where id = '01' ;
+update manuscript set siglum = 'A'    where id = '02' ;
+update manuscript set siglum = 'B'    where id = '03' ;
+update manuscript set siglum = 'C'    where id = '04' ;
+update manuscript set siglum = 'Dᵉᵃ'  where id = '05' ;
+update manuscript set siglum = 'Dᵖ'   where id = '06' ;
+update manuscript set siglum = 'Eᵉ'   where id = '07' ;
+update manuscript set siglum = 'Eᵃ'   where id = '08' ;
+update manuscript set siglum = 'Fᵉ'   where id = '09' ;
+update manuscript set siglum = 'Fᵖ'   where id = '010';
+update manuscript set siglum = 'Gᵉ'   where id = '011';
+update manuscript set siglum = 'Gᵖ'   where id = '012';
+update manuscript set siglum = 'Hᵉ'   where id = '013';
+update manuscript set siglum = 'Hᵃ'   where id = '014';
+update manuscript set siglum = 'Hᵖ'   where id = '015';
+update manuscript set siglum = 'I'    where id = '016';
+update manuscript set siglum = 'Kᵉ'   where id = '017';
+update manuscript set siglum = 'Kᵃᵖ'  where id = '018';
+update manuscript set siglum = 'Lᵉ'   where id = '019';
+update manuscript set siglum = 'Lᵃᵖ'  where id = '020';
+update manuscript set siglum = 'M'    where id = '021';
+update manuscript set siglum = 'N'    where id = '022';
+update manuscript set siglum = 'O'    where id = '023';
+update manuscript set siglum = 'pᵉ'   where id = '024';
+update manuscript set siglum = 'pᵃᵉʳ' where id = '025';
+update manuscript set siglum = 'Q'    where id = '026';
+update manuscript set siglum = 'R'    where id = '027';
+update manuscript set siglum = 'S'    where id = '028';
+update manuscript set siglum = 'T'    where id = '029';
+update manuscript set siglum = 'U'    where id = '030';
+update manuscript set siglum = 'V'    where id = '031';
+update manuscript set siglum = 'W'    where id = '032';
+update manuscript set siglum = 'X'    where id = '033';
+update manuscript set siglum = 'Y'    where id = '034';
+update manuscript set siglum = 'Z'    where id = '035';
+update manuscript set siglum = 'Γ'    where id = '036';
+update manuscript set siglum = 'Δ'    where id = '037';
+update manuscript set siglum = 'Θ'    where id = '038';
+update manuscript set siglum = 'Λ'    where id = '039';
+update manuscript set siglum = 'Ξ'    where id = '040';
+update manuscript set siglum = 'Π'    where id = '041';
+update manuscript set siglum = 'Σ'    where id = '042';
+update manuscript set siglum = 'Φ'    where id = '043';
+update manuscript set siglum = 'Ψ'    where id = '044';
+update manuscript set siglum = 'Ω'    where id = '045';
+
 
 
 commit;
