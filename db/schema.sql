@@ -9,7 +9,8 @@ create table manuscript (
   id        char not null primary key,
   siglum    char,
   name      char,
-  id_cntr   char,          -- id given by Center for New Testament Restoration (https://greekcntr.org/). Not unique (GA10015 contains both P15 and P16).
+  id_cntr   char,          -- id given by the Center for New Testament Restoration (https://greekcntr.org/). Not unique (GA10015 contains both P15 and P16).
+  id_ntvmr  char unique,   -- id given by the New Testament Virtual Manuscript Room.
   content   char,
   date_     char,
   notes     char

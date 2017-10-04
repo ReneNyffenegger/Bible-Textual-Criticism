@@ -13,6 +13,11 @@ http://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?detail=doc
 
 http://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?detail=document&indexContent=Rev.2.20&hasTranscriptions=true
 
+Note: there seem to be dummy(?) documents:
+<br>
+http://ntvmr.uni-muenster.de/community/vmr/api/metadata/manuscript/get/?docID=88890
+http://ntvmr.uni-muenster.de/community/vmr/api/metadata/manuscript/get/?docID=99999
+
 # Document Groups
 
 http://ntvmr.uni-muenster.de/community/vmr/api/documentgroup/get/?documentGroupID=4
