@@ -9,8 +9,10 @@ http://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/get/
 
 http://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/
 
+Search for documents that contain Revelation 2:20
 http://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?detail=document&indexContent=Rev.2.20
 
+Search for documents that contain Revelation 2:20 and have a transcription:
 http://ntvmr.uni-muenster.de/community/vmr/api/metadata/liste/search/?detail=document&indexContent=Rev.2.20&hasTranscriptions=true
 
 Note: there seem to be dummy(?) documents:
